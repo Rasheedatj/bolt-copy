@@ -1,0 +1,106 @@
+
+
+.center{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form{
+    margin-left: 41%;
+}
+
+h4{
+    text-align: center;
+    color: rgba(50, 50, 50, .3);
+}
+h4:before{
+    content: "";
+    display: block;
+    width: 130px;
+    height: 2px;
+    background-color:rgba(50, 50, 50, .1);
+    left: 35%;
+    top: 19%;
+    position: absolute;
+}
+h4:after{
+    content: "";
+    display: block;
+    width: 130px;
+    height: 2px;
+    background-color:rgba(50, 50, 50, .1);
+    right: 35%;
+    top: 19%;
+    position: absolute;
+}
+#driverusername, #password{
+    border: 1px solid rgba(50, 50, 50, .3) ;
+    padding: 10px 37px;
+    border-radius: 5px;
+    
+}
+#password:hover{
+    border:1px solid  rgba(50, 205, 50, 1); 
+}
+#driverusername:hover{
+    border: 1px solid rgba(50, 205, 50, 1)
+}
+#login{
+    color: white;
+    border: 1px solid rgba(50, 205, 50, 1);
+    background-color: rgba(50, 205, 50, 1);
+    padding: 5px 80px;
+    border-radius:  5px;
+    font-size:19px;
+}
+#magiclink{
+
+ color: lime;
+    border: 1px solid lime;
+    background-color:white;
+    padding: 10px 13px;
+    border-radius:  5px;
+    font-size: 19px;
+}
+    #magiclink:hover{
+background-color: rgba(50, 205, 50, 1);
+color: white;
+    border: 1px solid rgba(50, 205, 50, 1);
+    }
+    
+    .link:link{
+        color: rgba(50, 205, 50, 1);
+                text-decoration: none;}
+    #center1, #center2{
+        text-align: center;
+    }
+    #center1{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 15px;
+        
+    }
+    #center2{
+        margin-top: 24px;
+        margin-left: 5px;
+        font-size: 15px;
+    }
+    select{
+         
+         margin-left: 45%;
+         background-color:rgba(50, 50, 50, .3);
+         border: 1px solid rgba(50, 50, 50, .3);
+         border-radius: 4px;
+         padding: 5px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
